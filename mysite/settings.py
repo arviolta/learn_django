@@ -121,4 +121,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.local']  # '.local' - my local subdomains
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.local', 'arviolta.pythonanywhere.com']  # '.local' - my local subdomain
