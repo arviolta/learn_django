@@ -1,1 +1,18 @@
-hi there
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Test Blog </title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+{% for post in posts %}
+  <div>
+    <p>published: {{ post.published_date }}</p>
+    <h1><a href="">{{ post.title }}</a></h1>
+    <p>{{ post.text|linebreaksbr }}</p>
+  </div>
+  <br />
+{% endfor %}
+
+</body>
